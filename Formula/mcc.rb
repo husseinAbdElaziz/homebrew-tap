@@ -2,25 +2,25 @@
 class Mcc < Formula
   desc "Run multiple Claude Code CLI profiles on one device"
   homepage "https://github.com/husseinAbdElaziz/multi-claude"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.3.0/mcc-macos-arm64.tar.gz"
+      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.4.0/mcc-macos-arm64.tar.gz"
       sha256 "fe5d7a6d74d46e13a994925006cc01aaf40c04faf90f0f09073e08fe6f65ead3"
     else
-      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.3.0/mcc-macos-x64.tar.gz"
+      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.4.0/mcc-macos-x64.tar.gz"
       sha256 "5a51bc46ebbf01ca8cc5b88f4961b12aff502fd5cb61334697adfb4677f2510d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.3.0/mcc-linux-arm64.tar.gz"
+      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.4.0/mcc-linux-arm64.tar.gz"
       sha256 "ebf5822080ad2353c8949dc036670f2cbd6ef54ee1b3f1d6c96e38952dd2092d"
     else
-      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.3.0/mcc-linux-x64.tar.gz"
+      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.4.0/mcc-linux-x64.tar.gz"
       sha256 "6bc60a79c07461cef21fc46f733feed962e22618a5fb9a6408e46f79cac1b6aa"
     end
   end
