@@ -8,20 +8,20 @@ class Mcc < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.4.0/mcc-macos-arm64.tar.gz"
-      sha256 "fe5d7a6d74d46e13a994925006cc01aaf40c04faf90f0f09073e08fe6f65ead3"
+      sha256 "3a4e1655605f1b9bfc7673916380804ea4db4eafa6046ddf5a9054a13aee117f"
     else
       url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.4.0/mcc-macos-x64.tar.gz"
-      sha256 "5a51bc46ebbf01ca8cc5b88f4961b12aff502fd5cb61334697adfb4677f2510d"
+      sha256 "2cdd0af386360236a51d36d4f6a49ea9d813a2232dde49b501f99760f4638faa"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.4.0/mcc-linux-arm64.tar.gz"
-      sha256 "ebf5822080ad2353c8949dc036670f2cbd6ef54ee1b3f1d6c96e38952dd2092d"
+      sha256 "e1841311f2fdb7306c15ceb50fd92d39eaf15ce41ebdfc98de5c7964b82845d7"
     else
       url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.4.0/mcc-linux-x64.tar.gz"
-      sha256 "6bc60a79c07461cef21fc46f733feed962e22618a5fb9a6408e46f79cac1b6aa"
+      sha256 "20e5c072dca4f77cbea3ed8ff53fe5fd42610c5bd089b9ecf77ad7c38c013e55"
     end
   end
 
