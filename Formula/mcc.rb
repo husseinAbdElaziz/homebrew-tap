@@ -2,26 +2,26 @@
 class Mcc < Formula
   desc "Run multiple Claude Code CLI profiles on one device"
   homepage "https://github.com/husseinAbdElaziz/multi-claude"
-  version "0.5.2"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.5.2/mcc-macos-arm64.tar.gz"
-      sha256 "7bdae2727e08b87522512070d6b06627ab8be532b9c27c5c42ec8a8736015811"
+      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.6.0/mcc-macos-arm64.tar.gz"
+      sha256 "0672ba04fd43f747b6979efa600c22e0f58904bf37d2425d9d14680aadf9e2bc"
     else
-      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.5.2/mcc-macos-x64.tar.gz"
-      sha256 "8f7f29a17c5fe32894cb41d4c42c78b67f9fd70122332c9413f07194f3c9900d"
+      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.6.0/mcc-macos-x64.tar.gz"
+      sha256 "f6bd250d70c07b51c80a5660a48214c9758c6cbabf4063641c9aeb310a1d7fde"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.5.2/mcc-linux-arm64.tar.gz"
-      sha256 "d72578b5053addd5fae032f53ce475d3feb27b51e7a8beaed846437cde78cc6e"
+      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.6.0/mcc-linux-arm64.tar.gz"
+      sha256 "a0daeb1ae5b09ec3cfae662511448c2d5236ab80645103f6803b47fb532b6c68"
     else
-      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.5.2/mcc-linux-x64.tar.gz"
-      sha256 "73a4aef401f35cbad89205b7dfc0ebff8a060d6d90c73fd5dba9d38d11c2ab8b"
+      url "https://github.com/husseinAbdElaziz/multi-claude/releases/download/v0.6.0/mcc-linux-x64.tar.gz"
+      sha256 "f8c0820a4c6388ddc24a609770aba409b1e1ca1e9cf675458d1e8f63c2a5430c"
     end
   end
 
